@@ -1189,6 +1189,14 @@ text-shadow: 3px 3px 20px #090004,
     height: 400px;
     background-attachment: fixed;
 }
+ @media (max-width: 750px) {
+    .header-banner{
+      background-size: cover;
+      background-attachment: scroll;
+
+    }
+
+}
 
 .headerark h1 {
     background-color: rgba(18,72,120, 0.8);
