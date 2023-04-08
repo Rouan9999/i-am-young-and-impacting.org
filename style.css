@@ -1247,9 +1247,16 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+   
  
  }
+aside p{
+    margin: 10px 0px 15px 0px;
+}
+ 
+aside img{
+    margin-top: 10px;
+}
 aside img{
     width: 120px;
     height: 120px;
@@ -1257,10 +1264,9 @@ aside img{
 }
 .artquareimg{
     height: 350px;
-    max-width: 670px;
-    width: 100%;
-    object-fit: cover;
+    width: 670px;
     margin: 20px 0px;
+    object-fit: cover;
  }
 .timg{
     height: 350px;
@@ -1269,6 +1275,10 @@ aside img{
     object-fit: cover;
     margin: 20px 0px;
 }
+.lastp{
+    margin-bottom: 100px;
+}
+
 
 @media only screen and (max-width: 1025px) {
     .content{ 
@@ -1293,6 +1303,10 @@ aside img{
         text-align: center;
         width: 100%;
     }
+    .lastp{
+        margin-bottom: 10px;
+    }
+
 }
 .arta{
     color: #4999B2;
@@ -1312,4 +1326,19 @@ aside img{
 }
 #specialcase{
     width: 100px;
+}
+.smallh4{
+    font-weight: 500;
+}
+.atul{
+    padding-left: 30px;
+    font-weight: 600;
+}
+@media(max-width: 700px){
+    p{
+        width: 100%;
+    }
+    .artquareimg{
+        width: 100%;
+     }
 }
