@@ -1276,7 +1276,7 @@ aside img{
     margin: 20px 0px;
 }
 .lastp{
-    margin-bottom: 100px;
+    margin-bottom: 51px;
 }
 
 
@@ -1341,4 +1341,7 @@ aside img{
     .artquareimg{
         width: 100%;
      }
+}
+.titleheader{
+    font-size: 30px;
 }
