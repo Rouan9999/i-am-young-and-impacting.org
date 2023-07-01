@@ -1346,3 +1346,21 @@ aside img{
     font-size: 25px;
     opacity: .9;
 }
+.dates{
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.felxible{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.felxible img {
+    width: 250px;
+    height: 205px;
+ }
